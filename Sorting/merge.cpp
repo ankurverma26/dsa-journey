@@ -50,7 +50,7 @@ int main(){
     int low=0,high=size-1;
     merge_sort(arr,low,high);
     for(int i=0;i<size;i++){
-        cout<<arr[i];
+        cout<<arr[i]<<" ";
     }
     return 0;
 }
