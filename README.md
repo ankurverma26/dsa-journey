@@ -9,6 +9,7 @@ This repository contains my C++ solutions for Data Structures and Algorithms (DS
 - Hashing
 - Recursion
 - Sorting
+- Arrays
 
 More topics will be added as I continue learning.
 
