@@ -20,6 +20,8 @@ using namespace std;
 //     }
 //     rotate(arr,size,k-1,direction);
 // }
+
+
 void reverse_arr(int arr[],int low,int high){
     while(low<high){
         swap(arr[low],arr[high]);
@@ -28,7 +30,7 @@ void reverse_arr(int arr[],int low,int high){
     }
 }
 void rotate(int arr[],int size,int k,string direction){
-    if(size==0) return;
+    if(size==0 || k%size==0) return;
     k%=size;
     if(direction=="left"){
         reverse_arr(arr,0,k-1);
