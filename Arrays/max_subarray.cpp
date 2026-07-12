@@ -2,13 +2,13 @@
 using namespace std;
 
 int max_subarray(int arr[],int size){
-    int sum=0,max=INT_MIN;
+    int sum=0,maxi=INT_MIN;
     for(int i=0;i<size;i++){
        sum+=arr[i];
-       if(sum>max) max=sum;
+       if(sum>maxi) maxi=sum;
        if(sum<0) sum=0;
     }
-    return max;
+    return maxi;
 }
 int main(){
     int arr[]={-2, -3, -7, -2, -10, -4};
