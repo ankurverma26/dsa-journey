@@ -10,6 +10,7 @@ This repository contains my C++ solutions for Data Structures and Algorithms (DS
 - Recursion
 - Sorting
 - Arrays
+- Binary Search
 
 More topics will be added as I continue learning.
 
