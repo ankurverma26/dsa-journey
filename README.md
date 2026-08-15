@@ -11,6 +11,7 @@ This repository contains my C++ solutions for Data Structures and Algorithms (DS
 - Sorting
 - Arrays
 - Binary Search
+- Linked List
 
 More topics will be added as I continue learning.
 
