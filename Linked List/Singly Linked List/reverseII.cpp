@@ -37,7 +37,7 @@ ListNode *reverseBetween(ListNode *head, int left, int right)
     ListNode *before = leftP1;
     ListNode *current = leftP2;
     ListNode *after = rightP->next;
-    prev = after;
+    prev = nullptr;
     while (current != after)
     {
         ListNode *temp1 = current->next;
@@ -45,13 +45,12 @@ ListNode *reverseBetween(ListNode *head, int left, int right)
         prev = current;
         current = temp1;
     }
-    if (before)
+    if (!before)
     {
-        before->next = prev;
+        head = rightP;
     }
     else
-    {
-        head = prev;
-    }
+        before->next = rightP;
+    leftP2->next = after;
     return head;
 }
