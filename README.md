@@ -14,8 +14,6 @@ This repository contains my C++ solutions for Data Structures and Algorithms (DS
 - Linked List
 - Strings
 
-More topics will be added as I continue learning.
-
 ## Language
 
 - C++
