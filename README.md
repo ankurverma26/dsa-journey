@@ -13,6 +13,7 @@ This repository contains my C++ solutions for Data Structures and Algorithms (DS
 - Binary Search
 - Linked List
 - Strings
+- Stack
 
 ## Language
 
