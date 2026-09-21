@@ -14,6 +14,7 @@ This repository contains my C++ solutions for Data Structures and Algorithms (DS
 - Linked List
 - Strings
 - Stack
+- Queue
 
 ## Language
 
