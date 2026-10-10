@@ -15,6 +15,7 @@ This repository contains my C++ solutions for Data Structures and Algorithms (DS
 - Strings
 - Stack
 - Queue
+- Binary Tree
 
 ## Language
 
